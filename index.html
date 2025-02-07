@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <script src="script.css"></script>
+    <link rel="stylesheet" href="style.css">
     <title>App Flex</title>
 </head>
+
 <body>
-    <h1>Gasolina ou Etanol?</h1>
+    <div class="container">
+        <h1>Gasolina ou Etanol?</h1>
+
+        <h2>Preço do litro (R$):</h2>
+        <p>Gasolina<input type="number" id="gasolina" placeholder="0.00"></p>
+        <p>Etanol<input type="number" id="etanol" placeholder="0.00"></p>
+
+        <h2>Consumo médio do veículo (km/litro):</h2>
+        <p>Km/Litro Gasolina<input type="number" id="kmGasolina" placeholder="0.00"></p>
+        <p>Km/Litro Etanol<input type="number" id="kmEtanol" placeholder="0.00"></p>
+        <hr>
+        <table>
+            <tr>
+                <td id="left"><img src="img/flex.png" alt="Medidor" id="status"></td>
+                
+                <td><img src="img/calcflex.png" alt="Flex" onclick="calcular()"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
