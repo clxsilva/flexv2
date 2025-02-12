@@ -1,0 +1,14 @@
+PWA:
+(layout)
+- site precisa ser responsivo
+- favicon (ícone favorito) e meta tag description
+
+Obs: Usar DevTools -> Aplication
+Para criar um PWA é obrigatório o uso de https://
+
+(instalação) - manifest.json
+Super dica: Verificar erros e avisos em aplication
+
+(service worker) - sw.js
+- cache e sincronização (permite trabalhar o APP off-line)
+
