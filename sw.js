@@ -1,6 +1,6 @@
 /**
  * Service worker para o aplicativo de calculadora
- * @author Claudio Silva e Yvis Trindade
+ * @author Claudio Silva
  */
 
 // Instalação (cache "armazenamento local")
@@ -14,7 +14,10 @@ self.addEventListener('install', (event) => {
                 '/index.html',
                 '/style.css',
                 '/app.js',
-                '/img/logo.png'  // A logo do aplicativo
+                '/img/logo.png',
+                '/img/flex.png',
+                '/img/screenshot1.png',
+                '/img/screenshot2.png'
             ]);
         })
     );
